@@ -1,2 +1,2 @@
 # michelerotta-website
-Persona website/portfolio
+Personal website/portfolio
