@@ -1,0 +1,53 @@
+/* Imposta lo sfondo beige per tutta la pagina e centra i contenuti */
+body {
+    background-color: #F5F5DC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Stile base dei pulsanti (aggiornato per funzionare anche con i link <a>) */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none; /* Rimuove la sottolineatura tipica dei link */
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* Colori dei pulsanti */
+.btn-pink {
+    background-color: #ff758c;
+}
+
+.btn-green {
+    background-color: #2ecc71;
+}
